@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161113154943"/>
+		date="20161114052718"/>
 	<dependencies>
 		<module organisation="com.websudos" name="util-testing_2.11">
 			<revision name="0.13.0" status="release" pubdate="20161027141953" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="44">
@@ -218,12 +218,12 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-stream_2.11">
-			<revision name="2.4.10" status="release" pubdate="20160907001209" resolver="public" artresolver="public" homepage="http://akka.io/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+			<revision name="2.4.10" status="release" pubdate="20160907001209" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2544" time="88" location="/Users/gkitzmil/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/ivy-2.4.10.xml" searched="true" original-local-location="/Users/gkitzmil/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/ivy-2.4.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.10/akka-stream_2.11-2.4.10.pom"/>
+				<metadata-artifact status="no" details="" size="3235" time="0" location="/Users/gkitzmil/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.10/akka-stream_2.11-2.4.10.pom"/>
 				<caller organisation="com.typesafe.play" name="play-streams_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.5.8"/>
 				<artifacts>
-					<artifact name="akka-stream_2.11" type="jar" ext="jar" status="successful" details="" size="4264342" time="712" location="/Users/gkitzmil/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.10.jar">
+					<artifact name="akka-stream_2.11" type="jar" ext="jar" status="no" details="" size="4264342" time="0" location="/Users/gkitzmil/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.10.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.10/akka-stream_2.11-2.4.10.jar"/>
 					</artifact>
 				</artifacts>
@@ -254,13 +254,13 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
-			<revision name="2.4.10" status="release" pubdate="20160907001020" resolver="public" artresolver="public" homepage="http://akka.io/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+			<revision name="2.4.10" status="release" pubdate="20160907001020" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="1937" time="72" location="/Users/gkitzmil/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.10.xml" searched="true" original-local-location="/Users/gkitzmil/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.10/akka-actor_2.11-2.4.10.pom"/>
+				<metadata-artifact status="no" details="" size="2831" time="0" location="/Users/gkitzmil/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.10/akka-actor_2.11-2.4.10.pom"/>
 				<caller organisation="com.outworkers" name="phantom-reactivestreams_2.11" conf="default, compile, runtime, master" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.0.3"/>
 				<caller organisation="com.typesafe.akka" name="akka-stream_2.11" conf="compile, runtime" rev="2.4.10" rev-constraint-default="2.4.10" rev-constraint-dynamic="2.4.10" callerrev="2.4.10"/>
 				<artifacts>
-					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="successful" details="" size="3252908" time="707" location="/Users/gkitzmil/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.10.jar">
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="3252908" time="0" location="/Users/gkitzmil/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.10.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.10/akka-actor_2.11-2.4.10.jar"/>
 					</artifact>
 				</artifacts>
